@@ -16,7 +16,7 @@ const durationChoices = [
 ];
 
 export default {
-    data: new SlashCommandBuilder()
+    data: new SlashCommandBuilder(+)
         .setName("tempmute")
         .setDescription("Timeout a user for a specific duration.")
         .addUserOption((option) =>
