@@ -24,7 +24,7 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with ❤️",
+        name: "Made by kabs",
         // Activity type number (0 = Playing).
         type: 0,
       },
@@ -368,7 +368,7 @@ export const botConfig = {
     defaultGoodbyeMessage:
       "{user} has left the server. We now have {memberCount} members.",
     // Channel ID for welcome messages.
-    defaultWelcomeChannel: null,
+    defaultWelcomeChannel: 1495100440759767043,
     // Channel ID for goodbye messages.
     defaultGoodbyeChannel: null,
   },
