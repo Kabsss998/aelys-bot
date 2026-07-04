@@ -7,7 +7,7 @@ import { TitanBotError } from '../../utils/errorHandler.js';
 
 import { InteractionHelper } from '../../utils/interactionHelper.js';
 export default {
-    data: new SlashCommandBuilder()
+    data: new SlashCommandBuilder(+)
         .setName("massban")
         .setDescription("Ban multiple users from the server at once")
         .addStringOption(option =>
